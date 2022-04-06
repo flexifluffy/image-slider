@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma&display=swap');
+
+@font-face {
+    font-family: 'Atma', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Atma&display=swap');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    /* border:0; */
+    list-style-type: none;
+}
+input, textarea, select, button {
+    font-family: inherit;
+    font-size: inherit;
+    letter-spacing: 1px;
+}
+body {
+    font-family: Atma;
+    font-size: 20px;
+    
+}
+.wrapper {
+    width: 1280px;
+    margin: 10px auto;
+    
+}
+#slider {
+    width: 800px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+.slide {
+    position: absolute;
+    
+}
+button {
+    font-size: 64px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: 100px;
+    transition-duration: 0.3s;
+}
+#next {
+    left: 760px;
+}
+#previous {
+    left: 20px;
+}
+button:hover {
+    color: lightgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
